@@ -1,0 +1,76 @@
+.flag-game {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flag-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flag-image {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .final-score {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .final-score h1 {
+    font-size: 36px;
+    color: #28a745;
+  }
+  
+  .final-score p {
+    font-size: 24px;
+    color: #333;
+  }
+  
